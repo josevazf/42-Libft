@@ -1,6 +1,14 @@
 # 42-libft
 
-# Libft Functions
+## External Functions
+
+| Function |
+ |-----------|
+|  write() |
+|  malloc() |
+|  free() |
+
+# Functions Included
 
 ### Functions from `<ctype.h>`
 
