@@ -2,17 +2,17 @@
 
 This project is about coding a C library that contains a lot of general purpose functions to be use throughout the course.
 
-# Functions Included
+## Functions Included
 
 ### Functions from `<ctype.h>`
 
-- [`ft_isalpha`]	- checks  for  an  alphabetic  character.
-- [`ft_isdigit`](libft/ft_isdigit.c)	- checks for a digit (0 through 9).
-- [`ft_isalnum`](libft/ft_isalnum.c)	- checks for an alphanumeric character.
-- [`ft_isascii`](libft/ft_isascii.c)	- checks whether c fits into the ASCII character set.
-- [`ft_isprint`](libft/ft_isprint.c)	- checks for any printable character.
-- [`ft_toupper`](libft/ft_toupper.c)	- convert char to uppercase.
-- [`ft_tolower`](libft/ft_tolower.c)	- convert char to lowercase.
+- `ft_isalpha` - checks  for  an  alphabetic  character.
+- `ft_isdigit` - checks for a digit (0 through 9).
+- `ft_isalnum` - checks for an alphanumeric character.
+- `ft_isascii` - checks whether c fits into the ASCII character set.
+- `ft_isprint` - checks for any printable character.
+- `ft_toupper` - convert char to uppercase.
+- `ft_tolower` - convert char to lowercase.
 
 ### Functions from `<string.h>`
 
