@@ -11,7 +11,7 @@
 # **************************************************************************** #
 
 NAME		= libft.a
-CC			= gcc -Wall -Wextra -Werror
+CC			= cc -Wall -Wextra -Werror
 AR			= ar -rcs
 RM			= rm -rf
 SRCS		= ft_atoi.c \
@@ -64,10 +64,10 @@ BONUS_OBJS = $(BONUS_SRCS:.c=.o)
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	$(AR) $(NAME) $(OBJS)
+	$(CC) $(AR) $(NAME) $(OBJS)
 
 bonus: $(OBJS) $(BONUS_OBJS)
-	$(AR) $(NAME) $(OBJS) $(BONUS_OBJS)
+	$(CC) $(AR) $(NAME) $(OBJS) $(BONUS_OBJS)
 
 clean:
 	$(RM) $(OBJS) $(BONUS_OBJS)
