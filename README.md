@@ -4,57 +4,49 @@ This project is about coding a C library that contains a lot of general purpose 
 
 ## Functions Included
 
-### Functions from `<ctype.h>`
+`ft_isalpha` - checks  for  an  alphabetic  character.
+`ft_isdigit` - checks for a digit (0 through 9).
+`ft_isalnum` - checks for an alphanumeric character.
+`ft_isascii` - checks whether c fits into the ASCII character set.
+`ft_isprint` - checks for any printable character.
+`ft_toupper` - convert char to uppercase.
+`ft_tolower` - convert char to lowercase.
 
-- `ft_isalpha` - checks  for  an  alphabetic  character.
-- `ft_isdigit` - checks for a digit (0 through 9).
-- `ft_isalnum` - checks for an alphanumeric character.
-- `ft_isascii` - checks whether c fits into the ASCII character set.
-- `ft_isprint` - checks for any printable character.
-- `ft_toupper` - convert char to uppercase.
-- `ft_tolower` - convert char to lowercase.
-
-### Functions from `<string.h>`
-
-- [`ft_memset`](libft/ft_memset.c)	- fill memory with a constant byte.
-- [`ft_strlen`](libft/ft_strlen.c)	- calculate the length of a string.
-- [`ft_bzero`](libft/ft_bzero.c)	- zero a byte string.
-- [`ft_memcpy`](libft/ft_memcpy.c)	- copy memory area.
-- [`ft_memmove`](libft/ft_memmove.c)	- copy memory area.
-- [`ft_strlcpy`](libft/ft_strlcpy.c)	- copy string to an specific size.
-- [`ft_strlcat`](libft/ft_strlcat.c)	- concatenate string to an specific size.
-- [`ft_strchr`](libft/ft_strchr.c)	- locate character in string.
-- [`ft_strrchr`](libft/ft_strrchr.c)	- locate character in string.
-- [`ft_strncmp`](libft/ft_strncmp.c)	- compare two strings.
-- [`ft_memchr`](libft/ft_memchr.c)	- scan memory for a character.
-- [`ft_memcmp`](libft/ft_memcmp.c)	- compare memory areas.
-- [`ft_strnstr`](libft/ft_strnstr.c)	- locate a substring in a string.
-- [`ft_strdup`](libft/ft_strdup.c)	- creates a dupplicate for the string passed as parameter.
-
-### Functions from `<stdlib.h>`
-- [`ft_atoi`](libft/ft_atoi.c)	- convert a string to an integer.
-- [`ft_calloc`](libft/ft_calloc.c)	- allocates memory and sets its bytes' values to 0.
-
-### Non-standard functions
-- [`ft_substr`](libft/ft_substr.c)	- returns a substring from a string.
-- [`ft_strjoin`](libft/ft_strjoin.c)	- concatenates two strings.
-- [`ft_strtrim`](libft/ft_strtrim.c)	- trims the beginning and end of string with specific set of chars.
-- [`ft_split`](libft/ft_split.c)	- splits a string using a char as parameter.
-- [`ft_itoa`](libft/ft_itoa.c)	- converts a number into a string.
-- [`ft_strmapi`](libft/ft_strmapi.c)	- applies a function to each character of a string.
-- [`ft_striteri`](libft/ft_striteri.c)	- applies a function to each character of a string.
-- [`ft_putchar_fd`](libft/ft_putchar_fd.c)	- output a char to a file descriptor.
-- [`ft_putstr_fd`](libft/ft_putstr_fd.c)	- output a string to a file descriptor.
-- [`ft_putendl_fd`](libft/ft_putendl_fd.c)	- output a string to a file descriptor, followed by a new line.
-- [`ft_putnbr_fd`](libft/ft_putnbr_fd.c)	- output a number to a file descriptor.
+`ft_memset` - fill memory with a constant byte.
+`ft_strlen` - calculate the length of a string.
+`ft_bzero` - zero a byte string.
+`ft_memcpy`	- copy memory area.
+`ft_memmove` - copy memory area.
+`ft_strlcpy` - copy string to an specific size.
+`ft_strlcat` - concatenate string to an specific size.
+`ft_strchr`	- locate character in string.
+`ft_strrchr` - locate character in string.
+`ft_strncmp` - compare two strings.
+`ft_memchr` - scan memory for a character.
+`ft_memcmp`	- compare memory areas.
+`ft_strnstr` - locate a substring in a string.
+`ft_strdup` - creates a duplicate for the string passed as parameter.
+`ft_atoi` - convert a string to an integer.
+`ft_calloc` - allocates memory and sets its bytes' values to 0.
+`ft_substr` - returns a substring from a string.
+`ft_strjoin` - concatenates two strings.
+`ft_strtrim` - trims the beginning and end of string with specific set of chars.
+`ft_split` - splits a string using a char as parameter.
+`ft_itoa` - converts a number into a string.
+`ft_strmapi` - applies a function to each character of a string.
+`ft_striteri` - applies a function to each character of a string.
+`ft_putchar_fd` - output a char to a file descriptor.
+`ft_putstr_fd`	- output a string to a file descriptor.
+`ft_putendl_fd` - output a string to a file descriptor, followed by a new line.
+`ft_putnbr_fd`	- output a number to a file descriptor.
 
 ### Linked list functions
 
-- [`ft_lstnew`](libft/ft_lstnew.c)	- creates a new list element.
-- [`ft_lstadd_front`](libft/ft_lstadd_front.c)	- adds an element at the beginning of a list.
-- [`ft_lstsize`](libft/ft_lstsize.c)	- counts the number of elements in a list.
-- [`ft_lstlast`](libft/ft_lstlast.c)	- returns the last element of the list.
-- [`ft_lstadd_back`](libft/ft_lstadd_back.c)	- adds an element at the end of a list.
-- [`ft_lstclear`](libft/ft_lstclear.c)	- deletes and free list.
-- [`ft_lstiter`](libft/ft_lstiter.c)	- applies a function to each element of a list.
-- [`ft_lstmap`](libft/ft_lstmap.c)	- applies a function to each element of a list.
+`ft_lstnew`	- creates a new list element.
+`ft_lstadd_front`	- adds an element at the beginning of a list.
+`ft_lstsize` - counts the number of elements in a list.
+`ft_lstlast` - returns the last element of the list.
+`ft_lstadd_back` - adds an element at the end of a list.
+`ft_lstclear` - deletes and free list.
+`ft_lstiter` - applies a function to each element of a list.
+`ft_lstmap`	- applies a function to each element of a list.
