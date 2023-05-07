@@ -1,18 +1,12 @@
-# 42 Cursus - Common Core
+# libft - 42 Cursus - Common Core
 
-## External Functions
-
-| Function |
- |-----------|
-|  write() |
-|  malloc() |
-|  free() |
+This project is about coding a C library that contains a lot of general purpose functions to be use throughout the course.
 
 # Functions Included
 
 ### Functions from `<ctype.h>`
 
-- [`ft_isalpha`](libft/ft_isalpha.c)	- checks  for  an  alphabetic  character.
+- [`ft_isalpha`]	- checks  for  an  alphabetic  character.
 - [`ft_isdigit`](libft/ft_isdigit.c)	- checks for a digit (0 through 9).
 - [`ft_isalnum`](libft/ft_isalnum.c)	- checks for an alphanumeric character.
 - [`ft_isascii`](libft/ft_isascii.c)	- checks whether c fits into the ASCII character set.
