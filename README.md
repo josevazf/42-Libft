@@ -1,4 +1,4 @@
-# 42 Cursus / Libft
+# 42 Common Core / Libft
 This project is about coding a C library that contains a lot of general purpose functions to be used throughout the course.
 ###
 Most of these funcions already exist on standard C libraries and so this project is about understanding the way these functions work, implementing and learning to use them. 
