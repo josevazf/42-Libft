@@ -1,4 +1,4 @@
-# 42-libft
+# 42 Cursus - Common Core
 
 ## External Functions
 
